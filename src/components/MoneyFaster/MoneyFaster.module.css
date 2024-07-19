@@ -1,0 +1,71 @@
+.whole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.left{
+    padding-left: 100px;
+    width: 45%;
+}
+.right{
+    top: 20px;
+    width:47%;
+}
+@media only screen and (min-width:900px) and (max-width:1350px) {
+    .whole{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .left {
+        width: 50%;
+        padding-left: 22px;
+    }
+}
+@media only screen  and (min-width:426px) and (max-width: 900px) {
+    .imageStyle{
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 24px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .whole{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+        margin-bottom:48px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .right{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        height: unset;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .imageStyle{
+        height: auto;
+        margin-bottom: 24px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+    .right{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .imageStyle{
+        height: 700px;
+        margin-bottom: 24px;
+        width: unset;
+    }
+}

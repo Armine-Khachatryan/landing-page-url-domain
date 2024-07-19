@@ -1,0 +1,119 @@
+.whole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    padding-left: 100px;
+    width: 40%;
+}
+.title{
+    color: #343434;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+.text{
+    margin-top: 32px;
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+}
+.textBold{
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+}
+.textUnderlined{
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+}
+.right{
+    position: relative;
+    width: 55%;
+}
+.logoStyle{
+    width: 200px;
+    position: absolute;
+    bottom:15%;
+    right: 15%;
+}
+@media only screen and (min-width:901px) and (max-width:1350px) {
+    .left {
+        padding-left: 22px;
+        padding-top: 48px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .whole{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .right{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .text{
+        margin-top: 22px;
+        font-size: 16px;
+    }
+    .textBold{
+        font-size: 16px;
+    }
+    .textUnderlined{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1220px) {
+    .logoStyle{
+        width: 180px;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:999px) {
+    .logoStyle{
+        width:170px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:900px) {
+    .logoStyle{
+        width: 180px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:767px) {
+    .logoStyle{
+        width:140px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:424px) {
+    .logoStyle{
+        width:120px;
+    }
+}

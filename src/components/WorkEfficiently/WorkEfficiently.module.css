@@ -1,0 +1,57 @@
+.inside{
+    background-image: url('../../assets/images/Image3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    margin-bottom: 140px;
+}
+.text{
+    max-width: 920px;
+    width: 100%;
+    color: #FFF;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+}
+.textBoldUnderlined{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+}
+@media only screen and (min-width:900px) and (max-width:1350px) {
+    .inside{
+        padding-left: 48px;
+        padding-right: 48px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .text{
+        font-size: 16px;
+    }
+    .textBoldUnderlined{
+        font-size: 16px;
+    }
+}
+@media only screen  and (min-width: 425px) and (max-width: 900px) {
+    .inside{
+        padding: 48px;
+        margin-bottom: 48px;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .inside{
+        padding: 48px 15px;
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,358 @@
+.whole{
+    background-image: url('../../assets/images/Image4.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 13px;
+    padding-bottom: 114px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.right{
+    width: 48%;
+}
+.title{
+    max-width: 483px;
+    width: 100%;
+    color: #343434;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+.text{
+    color: #595959;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 174%;
+    letter-spacing: 0.6px;
+    margin-top: 32px;
+}
+.single{
+    display: flex;
+    flex-direction: column;
+    padding: 28px 36px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 33px 251px 0px rgba(0, 0, 0, 0.09), 0px 15.257px 116.045px 0px rgba(0, 0, 0, 0.07),
+    0px 8.73px 66.398px 0px rgba(0, 0, 0, 0.06), 0px 5.299px 40.303px 0px rgba(0, 0, 0, 0.05),
+    0px 3.193px 24.284px 0px rgba(0, 0, 0, 0.04), 0px 1.778px 13.523px 0px rgba(0, 0, 0, 0.03),
+    0px 0.765px 5.816px 0px rgba(0, 0, 0, 0.02);
+}
+.first{
+    max-width: 326px;
+    width: 100%;
+    margin-right: 64px;
+    position: relative;
+    margin-top: 50px;
+}
+.realtorImageStyle{
+    max-width:127px;
+    width: 100%;
+    margin-top: 5px;
+}
+.inside{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.singleTitle{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+.singleSubtitle{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+}
+.singleText{
+    color: #595959;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.26px;
+    text-transform: capitalize;
+}
+.iconStyleFirst{
+    position: absolute;
+    top: 25px;
+    left: -10%;
+    width: 50px;
+    height: 50px;
+}
+.imageStyleSecond{
+    width:63px;
+    height: 63px;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+.imageStyleFirst{
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    top: -35%;
+    right: 10%;
+}
+.imageStyleThird{
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    top: -30%;
+    right: 10%;
+}
+.imageStyleSecond{
+    max-width: 226px;
+}
+.third{
+    max-width: 326px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.second{
+    max-width: 226px;
+    width: 100%;
+    position: relative;
+}
+@media only screen and (min-width:1351px) and (max-width:1400px) {
+    .single{
+        padding: 28px;
+    }
+    .left{
+        width: 55%;
+    }
+    .right{
+        width: 40%;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1350px) {
+    .single{
+        padding: 15px;
+    }
+    .left{
+        width: 70%;
+    }
+    .right{
+        width: 30%;
+        padding-right: 22px;
+    }
+    .title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .imageStyleFirst{
+        width: 70px;
+        height: 70px;
+        top: -38%;
+    }
+    .imageStyleThird{
+        width: 70px;
+        height: 70px;
+        top: -29%;
+    }
+    .first{
+        max-width:280px;
+        margin-left: 31px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .third{
+        max-width:280px;
+        margin-left: 31px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .iconStyleFirst{
+        left: -10%;
+        width: 35px;
+        height:35px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .title{
+        font-size: 30px;
+        padding-top:32px;
+        text-align: center;
+    }
+    .text{
+        font-size: 16px;
+        margin-top: 22px;
+    }
+    .inside{
+        padding-top:0;
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .whole{
+        padding-top: 13px;
+        padding-bottom: 48px;
+    }
+    .single{
+        padding: 15px;
+        margin-top: 24px;
+    }
+    .iconStyleFirst{
+        width: 35px;
+        height:35px;
+    }
+    .imageStyleFirst{
+        width: 65px;
+        height: 65px;
+    }
+    .imageStyleThird{
+        width: 65px;
+        height: 65px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .imageStyleThird {
+        top: -24%;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 900px) {
+    .left{
+        justify-content: center;
+    }
+    .first{
+        max-width:280px;
+        margin-left: 31px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .third{
+        max-width:280px;
+        margin-left: 31px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .iconStyleFirst{
+        left: -9%;
+    }
+}
+@media only screen and (min-width: 510px) and (max-width: 649px) {
+    .left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        max-width: 450px;
+        width: 100%;
+        margin-right:0;
+        margin-top: 80px;
+    }
+    .second{
+        max-width: 450px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .third{
+        max-width: 450px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    .iconStyleFirst{
+        left: -5%;
+    }
+    .realtorImageStyle{
+        max-width: 150px;
+        margin-left: 5px;
+    }
+}
+@media only screen and (min-width: 375px)  and (max-width: 509px) {
+    .left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        max-width: 320px;
+        width: 100%;
+        margin-right:0;
+        margin-top: 50px;
+    }
+    .second{
+        max-width: 320px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .third{
+        max-width: 320px;
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 0;
+        margin-bottom: 48px;
+    }
+    .iconStyleFirst{
+        left: -7%;
+    }
+    .realtorImageStyle{
+        max-width: 120px;
+        margin-left: 5px;
+    }
+    .imageStyleThird{
+        top: -31%;
+    }
+}
+@media only screen   and (max-width: 374px) {
+    .left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        max-width: 240px;
+        width: 100%;
+        margin-right:0;
+        margin-top: 50px;
+    }
+    .second{
+        max-width: 240px;
+        width: 100%;
+    }
+    .third{
+        max-width: 240px;
+        width: 100%;
+        margin-top:70px;
+        margin-left: 0;
+        margin-bottom: 48px;
+    }
+    .iconStyleFirst{
+        left: -9%;
+    }
+    .realtorImageStyle{
+        max-width: 120px;
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,131 @@
+.whole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.imgDiv{
+    position: relative;
+}
+.left{
+    width:45%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+    width: 50%;
+}
+.title{
+    max-width: 585px;
+    color: #343434;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+}
+.boldTitle{
+    color: #343434;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+}
+.logoStyle{
+    width: 250px;
+    position: absolute;
+    bottom:10%;
+    right:20%;
+}
+@media only screen and (min-width:1000px) and (max-width:1220px) {
+    .logoStyle{
+        width: 200px;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:999px) {
+    .logoStyle{
+        width:170px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:900px) {
+    .logoStyle{
+        width:200px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:767px) {
+    .logoStyle{
+        width:160px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:424px) {
+    .logoStyle{
+        width:140px;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:1350px) {
+    .right{
+        padding-right: 22px;
+        width: 43%;
+    }
+    .left{
+        width:55%;
+    }
+    .title{
+        max-width: unset;
+        font-size: 26px;
+        line-height: 120%;
+        letter-spacing: 0;
+        padding-top:75px
+    }
+    .boldTitle{
+        font-size: 26px;
+        line-height: 120%;
+        letter-spacing: 0;
+    }
+}
+@media only screen and (max-width:900px) {
+    .whole{
+       flex-direction: column;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+    .left{
+        width:100%;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        width:100%;
+    }
+    .title{
+        max-width: unset;
+        font-size: 26px;
+        line-height: 120%;
+        letter-spacing: 0;
+        margin-top: 32px;
+    }
+    .boldTitle{
+        font-size: 26px;
+        line-height: 120%;
+        letter-spacing: 0;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:900px) {
+    .left{
+        display: flex;
+    }
+    .mainImage{
+        height: 700px;
+    }
+}
+@media only screen and (max-width:425px) {
+    .left {
+        margin-top: 25px;
+    }
+}

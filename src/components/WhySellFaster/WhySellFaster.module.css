@@ -1,0 +1,73 @@
+.inside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    max-width: 1400px;
+    margin:100px auto 0;
+}
+.text{
+    max-width: 1005px;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+}
+.textUnderlined{
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+}
+.boldText{
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+}
+.boldTextUnderlined{
+    color: #595959;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 174%;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+}
+@media only screen and (min-width:900px) and (max-width:1500px) {
+    .text{
+        margin-bottom: 50px;
+    }
+    .inside{
+        margin:48px auto 0;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .inside{
+        margin:48px auto 0;
+    }
+    .text{
+        margin-top: 22px;
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+    .textUnderlined{
+        font-size: 16px;
+    }
+    .boldText{
+        font-size: 16px;
+    }
+    .boldTextUnderlined{
+        font-size: 16px;
+    }
+}

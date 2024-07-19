@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Poppins_Regular;
+  src: url('assets/fonts/poppins/Poppins-Regular.ttf');
+}
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: Poppins_Regular,sans-serif !important;
+}
+.container{
+  /*max-width:1720px;*/
+  width: 100%;
+  padding-left:100px;
+  padding-right:100px;
+  margin: 0 auto;
+}
+header{
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background: rgba(255, 255, 255, 0.50);
+  backdrop-filter: blur(22.5px);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+footer{
+  padding-top: 70px;
+  padding-bottom:50px;
+  background: #FFF;
+  width: 100%;
+}
+h1{
+  color: #343434;
+  text-align: center;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.14px;
+  text-transform: capitalize;
+}
+.titleItalic{
+  color: #343434;
+  font-size: 57px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.14px;
+  text-transform: capitalize;
+}
+.boldTitleUnderlined{
+  color: #343434;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 1.14px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+h5{
+  margin-top: 32px;
+  max-width: 585px;
+  margin-bottom: 32px;
+  color: #595959;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 174%;
+  letter-spacing: 0.4px;
+}
+.boldText{
+  color: #595959;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 174%;
+  letter-spacing: 0.4px;
+}
+.underlinedText{
+  color: #595959;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 174%;
+  letter-spacing: 0.36px;
+  text-decoration-line: underline;
+}
+@media only screen and (min-width:900px) and (max-width:1350px) {
+  .container{
+    padding-left:22px;
+    padding-right:22px;
+  }
+  h1{
+    font-size: 44px;
+    max-width: 1000px;
+  }
+  .titleItalic{
+    font-size: 44px;
+  }
+  .boldTitleUnderlined{
+    font-size:44px;
+  }
+  h5 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .titleItalic{
+    font-size: 35px;
+  }
+  .boldTitleUnderlined{
+    font-size: 35px;
+  }
+  h5{
+    margin-top: 22px;
+    margin-bottom:22px;
+    font-size: 18px;
+  }
+  .boldText{
+    font-size: 18px;
+  }
+  .underlinedText{
+    font-size: 18px;
+  }
+  footer {
+    padding-top: 24px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}

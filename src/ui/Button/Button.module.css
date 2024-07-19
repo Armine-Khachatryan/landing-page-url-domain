@@ -1,0 +1,30 @@
+.btnStyle{
+    border-radius: 7px;
+    background: #000;
+    padding: 16px 29px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.btnStyle:disabled{
+    cursor: not-allowed;
+}
+.btnStyle:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+@media only screen and (max-width:375px) {
+    .btnStyle{
+        padding:16px;
+    }
+}
